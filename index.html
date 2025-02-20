@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <!-- Enlazar el archivo style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Juego de Amigo Secreto</h1>
+
+    <div>
+        <input type="text" id="nombre-amigo" placeholder="Ingresa el nombre de un amigo" />
+        <button onclick="agregarAmigo()">Agregar Amigo</button>
+    </div>
+
+    <div id="amigos-lista">
+        <h3>Lista de Amigos</h3>
+        <ul id="amigos-ul">
+            <!-- Los nombres de los amigos se agregarán aquí dinámicamente -->
+        </ul>
+    </div>
+
+    <button onclick="sortearAmigos()">Sortear Amigos Secretos</button>
+
+    <div id="resultados">
+        <h3>Resultados del Sorteo</h3>
+        <ul id="resultados-ul">
+            <!-- Los resultados del sorteo se mostrarán aquí -->
+        </ul>
+    </div>
+
+    </div>
+        <img src="i2.png" alt="Una caja de regalo" class="container__imagen-persona" />
+    </div>
+
+    <!-- Agregar el botón de reinicio -->
+    <button id="reinicio" onclick="reiniciarJuego()">Reinicio</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

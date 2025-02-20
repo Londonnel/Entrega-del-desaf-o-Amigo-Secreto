@@ -1,0 +1,161 @@
+/* Estilo base para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 1px;
+    margin: 0;
+    background-image: url('i3.jpg'); /* Fondo de página relacionado al tema */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra en el texto para mejor visibilidad */
+}
+
+/* Contenedor principal de los elementos */
+div {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el campo de texto de nombre */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-image: url('https://example.com/icono-input.png'); /* Ícono en el campo de texto */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 35px; /* Ajustar el espacio por el ícono */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #360ea5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    background-image: url('https://example.com/icono-boton.png'); /* Ícono en el botón */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 20px; /* Ajustar el espacio por el ícono */
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de la lista de amigos */
+#amigos-lista {
+    margin: 20px 0;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    backdrop-filter: blur(5px); /* Efecto de desenfoque en el fondo */
+}
+
+/* Estilo para la lista de amigos */
+#amigos-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#amigos-ul li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Estilo para los resultados */
+#resultados {
+    margin-top: 20px;
+    padding: 1px;
+    background-color: rgba(232, 244, 232, 0.8); /* Fondo semitransparente para los resultados */
+    border: 1px solid #ddd;
+    border-radius: 50px;
+}
+
+/* Estilo de los elementos de los resultados */
+#resultados-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultados-ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo específico para cada amigo secreto */
+.amigo-secreto {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+/* Agregar una imagen de fondo a los elementos de la lista */
+#amigos-lista h3,
+#resultados h3 {
+    background-image: url('https://example.com/icono-titulo.png'); /* Icono decorativo */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 35px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;                  /* Utilizamos Flexbox para alinear los elementos */
+    justify-content: flex-end;      /* Alinea los elementos al final (derecha) */
+    align-items: center;            /* Centra los elementos verticalmente */
+    height: 100vh;                  /* Establece la altura para que ocupe toda la altura de la ventana */
+    width: 100%;                    /* Ocupa todo el ancho de la pantalla */
+}
+
+/* Estilo para la imagen */
+.container__imagen-persona {
+    max-width: 50%;                /* Hace que la imagen no se salga de su contenedor */
+    height: auto;                   /* Mantiene la relación de aspecto de la imagen */
+}
+
+/* Estilo para el botón de reinicio */
+#reinicio {
+    display: block;             /* Asegura que el botón esté en una línea separada */
+    margin: 20px auto;          /* Espaciado alrededor del botón y lo centra horizontalmente */
+    padding: 10px 20px;         /* Tamaño adecuado del botón */
+    font-size: 16px;            /* Tamaño de la fuente */
+    background-color: #ff5722;  /* Color de fondo del botón */
+    color: white;               /* Color de texto */
+    border: none;               /* Elimina el borde predeterminado */
+    border-radius: 5px;         /* Bordes redondeados */
+    cursor: pointer;           /* Hace que el cursor cambie a mano al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+/* Efecto hover sobre el botón */
+#reinicio:hover {
+    background-color: #e64a19;  /* Cambia el color del botón cuando el usuario pasa el mouse sobre él */
+}
+
+
+
+
